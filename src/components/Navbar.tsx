@@ -37,6 +37,12 @@ const Navbar = () => {
               Меню
             </Link>
             <Link 
+              to="/blog" 
+              className="text-foreground hover:text-coffee-accent transition-colors"
+            >
+              Статьи
+            </Link>
+            <Link 
               to="/about" 
               className="text-foreground hover:text-coffee-accent transition-colors"
             >
@@ -83,6 +89,13 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Меню
+            </Link>
+            <Link 
+              to="/blog" 
+              className="block py-2 text-foreground hover:text-coffee-accent"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Статьи
             </Link>
             <Link 
               to="/about" 
