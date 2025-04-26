@@ -197,6 +197,19 @@ const dessertItems: MenuItem[] = [
     image: "https://images.unsplash.com/photo-1605286658998-09e29c579170?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     badges: ["vegan"]
   },
+  {
+    name: "Бельгийские вафли",
+    description: "Свежие хрустящие вафли с кленовым сиропом и ягодами",
+    price: "240",
+    image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    badges: ["bestseller"]
+  },
+  {
+    name: "Шоколадные вафли",
+    description: "Вафли с шоколадной начинкой, посыпанные какао и подаваемые с мороженым",
+    price: "260",
+    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  },
 ];
 
 const snackItems: MenuItem[] = [
